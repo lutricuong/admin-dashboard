@@ -65,16 +65,17 @@ body {
     display: grid;
     gap: 30px;
     grid-template-rows: 8% 32% 16%;
-    height: 100%;
     background-color: #0ea5e9;
     color: white;
     font-weight: 800;
+    padding-left: 20px;
 }
 
 .dashboard {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: max(22px, 1.5vw)
 }
 
 .dashboard img {
@@ -84,12 +85,12 @@ body {
 
 .home {
     display: grid;
-
+    font-size: max(17px, 1.3vw)
 }
 
 .settings {
     display: grid;
-
+    font-size: max(17px, 1.3vw)
 }
 
 .home > div, .settings > div {
